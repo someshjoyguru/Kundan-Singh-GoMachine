@@ -7,9 +7,9 @@ function BookMachine() {
   const [modal, setModal] = useState(false); //  class - active-modal
 
   // booking car
-  const [carType, setCarType] = useState("");
-  const [subTypes, setSubTypes] = useState([]);
-  const [subType, setSubType] = useState("");
+  const [carType, setCarType] = useState("Select your machine type");
+  const [subTypes, setSubTypes] = useState(["Select your machine sub-type"]);
+  const [subType, setSubType] = useState("Select your machine sub-type");
   const [dropLocation, setDropLocation] = useState("");
   const [quantity, setQuantity] = useState("");
   const [pickTime, setPickTime] = useState("");
@@ -324,7 +324,10 @@ function BookMachine() {
 
           <div className="booking-modal__car-info__model">
             <h5>
-              <span>Car -</span> {carType}
+              <span>Machine :</span> {carType}
+            </h5>
+            <h5>
+              <span>Machine Sub-Type :</span> {subType}
             </h5>
             {imgUrl && <img src={imgUrl} alt="car_img" />}
           </div>

@@ -24,16 +24,16 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "We rented a car from this website and had an amazing
-                  experience! The booking was easy and the rental rates were
-                  very affordable. "
+                  "Submit one request, get multiple quotes
+Rent Excavators, Bulldozers, Cranes & Rollers from GOMACHINE®.
+You can hire the machines you need for a few months to a few years with flexible hire arrangements."
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
                     <span>
-                      <h4>Parry Hotter</h4>
-                      <p>Belgrade</p>
+                      <h4>Rahul Raj</h4>
+                      <p>Raj Enterprises</p>
                     </span>
                   </div>
                 </div>
@@ -44,15 +44,16 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                  "Submit one request, get multiple quotes
+Rent Excavators, Bulldozers, Cranes & Rollers from GOMACHINE®.
+You can hire the machines you need for a few months to a few years with flexible hire arrangements."
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
                     <span>
-                      <h4>Ron Rizzly</h4>
-                      <p>Novi Sad</p>
+                      <h4>Sahil Sharma</h4>
+                      <p>Sharma Enterprises</p>
                     </span>
                   </div>
                 </div>
