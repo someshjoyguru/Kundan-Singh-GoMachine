@@ -42,8 +42,8 @@ function Hero() {
                 Save <span>big</span> with our machine rental
               </h1>
               <p>
-                Submit one request, get multiple quotes
-Rent Excavators, Bulldozers, Cranes & Rollers from GOMACHINE®.
+                <b>Submit one request, get multiple quotes</b><br />
+Rent Excavators, Bulldozers, Cranes & Rollers from GOMACHINE®.<br />
 You can hire the machines you need for a few months to a few years with flexible hire arrangements. Share your requirements with us.
               </p>
               <div className="hero-content__text__btns">
