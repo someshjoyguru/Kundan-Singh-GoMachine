@@ -1,10 +1,6 @@
 {
   "Select your machine type": ["Select your machine sub-type"],
-  "Audi A1 S-Line": ["Select your machine sub-type","Sub-Type 1", "Sub-Type 2"],
-  "VW Golf 6": ["Select your machine sub-type","Sub-Type 3", "Sub-Type 4"],
-  "Toyota Camry": ["Select your machine sub-type","Sub-Type 5", "Sub-Type 6"],
-  "BMW 320 ModernLine": ["Select your machine sub-type","Sub-Type 7", "Sub-Type 8"],
-  "Mercedes-Benz GLK": ["Select your machine sub-type","Sub-Type 9", "Sub-Type 10"],
-  "VW Passat CC": ["Select your machine sub-type","Sub-Type 11", "Sub-Type 12"]
+  "Excavators": ["Select your machine sub-type","Crawler Excavators", "Wheeled Excavators"],
+  "Bulldozers": ["Select your machine sub-type","Crawler Hybrid Bulldozer", "Wheeled Hybrid Bulldozer","Mini Bulldozer"]
 }
   
