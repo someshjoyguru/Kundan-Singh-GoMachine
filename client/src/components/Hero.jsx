@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import BgShape from "../images/hero/hero-bg.png";
 import { useEffect, useState } from "react";
-import { Carousel, ClientSlider} from "./Carousel";
+import CustomCarousel, { Carousel, ClientSlider} from "./Carousel";
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);
@@ -77,8 +77,7 @@ You can hire the machines you need for a few months to a few years with flexible
               </div>
           </div> */}
         {/* </div> */}
-        {/* <Carousel />
-        <ClientSlider /> */}
+        <CustomCarousel />
         {/* page up */}
         <div
           onClick={scrollToTop}

@@ -154,7 +154,7 @@ function Navbar() {
           </li>
         </ul>
         <div className="navbar__buttons">
-          <i class="fa-solid fa-cart-shopping fa-xl"></i>
+          <i className="fa-solid fa-cart-shopping fa-xl"></i>
           <Link className="navbar__buttons__sign-in" to="/">
             Sign In
           </Link>

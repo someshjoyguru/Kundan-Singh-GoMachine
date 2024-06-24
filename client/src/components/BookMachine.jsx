@@ -256,7 +256,7 @@ function BookMachine() {
                   <label>
                     <i className="fa-solid fa-location-dot"></i> &nbsp; Specific information to share{" "}
                   </label>
-                  <input placeholder="Enter specific info" value={specificInfo} onChange={handleSpecificInfo}></input>
+                  <input placeholder="Search machines" value={specificInfo} onChange={handleSpecificInfo}></input>
                 </div>
 
                 <button onClick={openModal} type="submit">

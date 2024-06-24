@@ -9,11 +9,11 @@ function PlanTrip() {
         <div className="container">
           <div className="plan-container">
             <div className="plan-container__title">
-              <h3>Quick & easy machine rental services</h3>
-              <h2>About us</h2>
+              <h3>EQUIPMENT</h3>
+              <h2>Quality equipment, ready to go</h2>
             </div>
 
-            <div className="plan-container__boxes">
+            {/* <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
                 <img src={SelectCar} alt="icon_img" />
                 <h3>What We Do</h3>
@@ -36,8 +36,8 @@ function PlanTrip() {
                 <p>
                 Once your rental is secured, GoMachine® manages the scheduling, billing, logistics, documentation, and ensures quality management for all machines within our supplier network. Delivery, technical support, and additional services are provided by our suppliers as needed.
                 </p>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
         </div>
       </section>

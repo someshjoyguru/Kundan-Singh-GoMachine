@@ -8,19 +8,19 @@ function SearchBox() {
 
     return (
         <>
-            <section id="booking-section" className="book-section">
-                <div className="container">
-                    <div className="book-content">
+            {/* <section id="booking-section" className="book-section"> */}
+                {/* <div className="container"> */}
+                    {/* <div className="book-content"> */}
                         <div className="book-content__box">
                             <div className="box-form__input-text">
                                 <div className="hero-content__text__btns">
-                                    <div className="hero_search_box"><input placeholder="Enter specific info" value={searchText} onChange={(e) => setSearchText(e)}></input></div>
-                                    <div className="hero_search_button"></div><button onClick={"/"} type="submit">Search</button></div>
+                                    <div ><input placeholder="Search machines" value={searchText} onChange={(e) => setSearchText(e.target.value)}></input></div>
+                                    <button onClick={"/"} type="submit">Search</button></div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section >
+                    {/* </div> */}
+                {/* </div> */}
+            {/* </section > */}
         </>
     );
 }

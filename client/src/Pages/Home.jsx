@@ -9,14 +9,16 @@ import Faq from "../components/Faq";
 import Download from "../components/Download";
 import Footer from "../components/Footer";
 import SearchBox from "../components/SearchBox";
+import MachineGrid from "../components/MachineGrid";
 
 function Home() {
   return (
     <>
       <Hero />
-      <SearchBox />
-      <BookMachine />
       <PlanTrip />
+      {/* <SearchBox /> */}
+      {/* <BookMachine /> */}
+      <MachineGrid />
       <PickCar />
       <Banner />
       {/* <ChooseUs /> */}
