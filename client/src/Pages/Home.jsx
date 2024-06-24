@@ -10,6 +10,7 @@ import Download from "../components/Download";
 import Footer from "../components/Footer";
 import SearchBox from "../components/SearchBox";
 import MachineGrid from "../components/MachineGrid";
+import RentalExperience from "../components/RentalExperience";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       {/* <BookMachine /> */}
       <MachineGrid />
       <PickCar />
+      <RentalExperience />
       <Banner />
       {/* <ChooseUs /> */}
       {/* <Testimonials /> */}

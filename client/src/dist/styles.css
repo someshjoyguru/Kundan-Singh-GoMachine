@@ -325,7 +325,7 @@ body {
   margin-bottom: 2.3rem;
 }
 .hero-content__text h1 span {
-  color: #ff4d30;
+  color: #f79e03;
 }
 .hero-content__text p {
   font-size: 1.6rem;
@@ -353,7 +353,7 @@ body {
   font-weight: 700;
 }
 .hero-content__text__btns__book-machine {
-  background-color: #ff4d30;
+  background-color: #ecc70e;
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
@@ -570,7 +570,7 @@ body {
   gap: 2rem;
 }
 .book-content__box .box-form b {
-  color: #ff4d30;
+  color: #ffbd30;
 }
 @media (max-width: 1000px) {
   .book-content__box .box-form {
@@ -671,13 +671,14 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   color: white;
-  background-color: #ff4d30;
-  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
+  background-color: #f8b311;
+  box-shadow: 0 10px 15px rgba(255, 196, 48, 0.35);
   cursor: pointer;
   transition: all 0.3s;
 }
 .book-content__box button:hover {
-  box-shadow: 0 10px 15px rgba(255, 83, 48, 0.55);
+  box-shadow: 0 10px 15px rgba(255, 186, 48, 0.55);
+  background-color: #ff9900;
 }
 
 /* Machine Grid */
@@ -799,6 +800,56 @@ body {
   }
 }
 
+/* RentalExperience */
+
+/* Base styles */
+.rental-experience {
+  text-align: center;
+  padding: 20px;
+}
+
+.rental-experience-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.rental-experience-features {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.rental-experience-feature {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rental-experience-icon {
+  color: #ffaa00;
+  padding-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .rental-experience-features {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .rental-experience-feature {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
 
 
 
@@ -1338,7 +1389,7 @@ body {
 }
 
 .colored-button {
-  background-color: #ff4d30 !important;
+  background-color: #ff9900 !important;
   color: white;
 }
 
@@ -2417,3 +2468,16 @@ footer {
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
   background-color: #fa4226;
 }/*# sourceMappingURL=styles.css.map */
+
+
+
+/* 
+Button Colors
+background-color: #f8b311;
+  box-shadow: 0 10px 15px rgba(255, 196, 48, 0.35);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.book-content__box button:hover {
+  box-shadow: 0 10px 15px rgba(255, 186, 48, 0.55);
+  background-color: #ff9900; */
